@@ -65,7 +65,8 @@ The files srat_harmony_dims50_res0.5.RDS and HNSCC_expr.RDS in the data folder c
 --tcga.areg.correlation.csv           # datasets from CCLE and the Human Protein Atlas for HPV-negative samples to compare the correlation of the gene AREG with other genes
 
 
-3. output Folder		
+3. output Folder
+ 
 This folder is used to store the output results and related files for each figure. All generated figures and reports will be saved here.
 
  
