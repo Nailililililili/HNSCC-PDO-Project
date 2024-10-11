@@ -6,25 +6,16 @@ This project contains code, data, and output results for data analysis and visua
 
 1. code Folder
 
-01_TCGA_subtype_analysis.R： Generates Fig4; This script determines the molecular subtype enrichment score of each single cell using the published genesets for each molecular subtype.
-
-02_gene_modlue_identification.R     # Generates Fig5
-
-03_RHP_scoring.R                    # Generates Fig6 and Fig7
-
-04_HPV_HNSCC_analysis.R             # Generates Fig8
-
-control_geneset.R              # Functions used for gene modlue identification
-
-custom_magma.R                 # Functions used for gene modlue identification
-
-nmf_cell_class.R               # Functions used for gene modlue identification
-
-nmf_programs.R                 # Functions used for gene modlue identification
-
-robust_nmf_programs.R          # Functions used for gene modlue identification
-
-seurat_functions_public.R      # Functions used for gene modlue scoring
+--01_TCGA_subtype_analysis.R：        # Generates Fig4. This script determines the molecular subtype enrichment score of each single cell using the published genesets for each molecular subtype.
+--02_gene_modlue_identification.R     # Generates Fig5. 
+--03_RHP_scoring.R                    # Generates Fig6 and Fig7. 
+--04_HPV_HNSCC_analysis.R             # Generates Fig8. 
+--control_geneset.R                   # Functions used for gene modlue identification
+--custom_magma.R                      # Functions used for gene modlue identification
+--nmf_cell_class.R                    # Functions used for gene modlue identification
+--nmf_programs.R                      # Functions used for gene modlue identification
+--robust_nmf_programs.R               # Functions used for gene modlue identification
+--seurat_functions_public.R           # Functions used for gene modlue scoring
 
 
 2. data Folder               # Data used in the project
