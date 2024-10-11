@@ -4,29 +4,30 @@ Genomic and single-cell characterization of patient-derived tumor organoid model
 Introduction
 This project contains code, data, and output results for data analysis and visualization. Below is a detailed description of the folder structure.
 
-├── code
+1. code Folder
 
-│   ├── 01_TCGA_subtype_analysis.R          # Generates Fig4
+01_TCGA_subtype_analysis.R： Generates Fig4; This script determines the molecular subtype enrichment score of each single cell using the published genesets for each molecular subtype.
 
-│   ├── 02_gene_modlue_identification.R     # Generates Fig5
+02_gene_modlue_identification.R     # Generates Fig5
 
-│   ├── 03_RHP_scoring.R                    # Generates Fig6 and Fig7
+03_RHP_scoring.R                    # Generates Fig6 and Fig7
 
-│   ├── 04_HPV_HNSCC_analysis.R             # Generates Fig8
+04_HPV_HNSCC_analysis.R             # Generates Fig8
 
-│   ├── control_geneset.R              # Functions used for gene modlue identification
+control_geneset.R              # Functions used for gene modlue identification
 
-│   ├── custom_magma.R                 # Functions used for gene modlue identification
+custom_magma.R                 # Functions used for gene modlue identification
 
-│   ├── nmf_cell_class.R               # Functions used for gene modlue identification
+nmf_cell_class.R               # Functions used for gene modlue identification
 
-│   ├── nmf_programs.R                 # Functions used for gene modlue identification
+nmf_programs.R                 # Functions used for gene modlue identification
 
-│   ├── robust_nmf_programs.R          # Functions used for gene modlue identification
+robust_nmf_programs.R          # Functions used for gene modlue identification
 
-│   └── seurat_functions_public.R      # Functions used for gene modlue scoring
+seurat_functions_public.R      # Functions used for gene modlue scoring
 
-├── data               # Data used in the project
+
+2. data Folder               # Data used in the project
 
 │   ├── srat_harmony_dims50_res0.5.RDS # merged seurat objects of 8 HNSCC PDOs 
 
