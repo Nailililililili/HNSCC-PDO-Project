@@ -5,7 +5,9 @@ Introduction
 
 This project contains code, data, and output results for data analysis and visualization. Below is a detailed description of the folder structure.
 
-1. code Folder
+1. Figure1 and Figure3                # These files contain scripts and related data for Figure 1 and Figure 3
+
+2. code Folder
 
 --01_TCGA_subtype_analysis.R          # Generates Fig4. This script determines the molecular subtype enrichment score of each single cell using the published genesets for each molecular subtype.
 
@@ -32,7 +34,7 @@ control_geneset.R, custom_magma.R, nmf_cell_class.R, nmf_programs.R: These funct
 seurat_functions_public.R: This function is used for gene modlue scoring and are sourced from relevant literature: DOI: 10.1038/s41588-022-01141-9
 
 
-2. data Folder
+3. data Folder
    
 This folder contains all the data files used in the project. 
 The files srat_harmony_dims50_res0.5.RDS and HNSCC_expr.RDS in the data folder can be found on Zenodo：https://zenodo.org/records/13917309
@@ -66,7 +68,7 @@ The files srat_harmony_dims50_res0.5.RDS and HNSCC_expr.RDS in the data folder c
 --tcga.areg.correlation.csv           # datasets from CCLE and the Human Protein Atlas for HPV-negative samples to compare the correlation of the gene AREG with other genes
 
 
-3. output Folder
+4. output Folder
  
 This folder is used to store the output results and related files for each figure. All generated figures and reports will be saved here.
 
