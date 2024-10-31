@@ -7,7 +7,7 @@ This project contains code, data, and output results for data analysis and visua
 
 1. figure1 and figure3                
 
-These files contain scripts and related data for Figure 1 and Figure 3
+These files contain scripts and related data for Figure 1 and Figure 3.
 
 2. code Folder
 
@@ -31,15 +31,15 @@ These files contain scripts and related data for Figure 1 and Figure 3
 
 --seurat_functions_public.R           # Functions used for gene modlue scoring
 
-control_geneset.R, custom_magma.R, nmf_cell_class.R, nmf_programs.R: These functions are used for gene modlue identification and are sourced from relevant literature: DOI: 10.1038/s41588-020-00726-6
+control_geneset.R, custom_magma.R, nmf_cell_class.R, nmf_programs.R: These functions are used for gene modlue identification and are sourced from relevant literature: DOI: 10.1038/s41588-020-00726-6.
 
-seurat_functions_public.R: This function is used for gene modlue scoring and are sourced from relevant literature: DOI: 10.1038/s41588-022-01141-9
+seurat_functions_public.R: This function is used for gene modlue scoring and are sourced from relevant literature: DOI: 10.1038/s41588-022-01141-9.
 
 
 3. data Folder
    
 This folder contains all the data files used in the project. 
-The files srat_harmony_dims50_res0.5.RDS and HNSCC_expr.RDS in the data folder can be found on Zenodo：https://zenodo.org/records/13917309
+The files srat_harmony_dims50_res0.5.RDS and HNSCC_expr.RDS in the data folder can be found on Zenodo：https://zenodo.org/records/13917309.
 
 --srat_harmony_dims50_res0.5.RDS      # merged seurat objects of 8 HNSCC PDOs 
 
