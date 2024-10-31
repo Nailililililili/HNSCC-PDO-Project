@@ -5,7 +5,7 @@ Introduction
 
 This project contains code, data, and output results for data analysis and visualization. Below is a detailed description of the folder structure.
 
-1. Figure1 and Figure3                
+1. figure1 and figure3                
 
 These files contain scripts and related data for Figure 1 and Figure 3
 
